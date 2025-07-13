@@ -18,15 +18,15 @@ A simple CRUD web application for managing student records, built with Spring Bo
 
 ### 1. Database Setup
 
-1. Create a MySQL database named `student_name`:
+1. Create a MySQL database named `student`:
 
    ```sql
-   CREATE DATABASE student_name;
+   CREATE DATABASE student;
    ```
 2. In `backend/src/main/resources/application.properties`, set:
 
    ```properties
-   spring.datasource.url=jdbc:mysql://localhost:3306/student_name
+   spring.datasource.url=jdbc:mysql://localhost:3306/student
    spring.datasource.username=<YOUR_DB_USERNAME>
    spring.datasource.password=<YOUR_DB_PASSWORD>
    spring.jpa.hibernate.ddl-auto=update
